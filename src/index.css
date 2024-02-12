@@ -1,0 +1,33 @@
+
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 2em;
+  margin: 2em;
+  background-color: rgb(239, 237, 209);
+  }
+  
+  .cardImage {
+  width: 50%;
+  height: 50%;
+  }
+  
+  .card:hover {
+  background-color: rgb(215, 134, 215);
+  }
+  
+  button {
+  cursor: pointer;
+  border: solid black;
+  background-color: rgb(174, 174, 241);
+  }
+  
+  body {
+  background-image: linear-gradient(
+  56deg,
+  rgba(43, 46, 224, 0.15) 0%,
+  rgba(26, 218, 182, 0.15) 100%
+  ),
+  linear-gradient(336deg, rgb(50, 52, 221), rgb(60, 239, 241));
+  }
